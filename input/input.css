@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-parallax {
+    background-image: url('../img/hero2.jpg'); /* Replace with your image path */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-stockb {
+    text-shadow: -1px -1px 0 #3b82f6,  
+                 1px -1px 0 #3b82f6,  
+                 -1px 1px 0 #3b82f6,  
+                 1px 1px 0 #3b82f6;
+}
+
+
+.text-stockw {
+    text-shadow: -1px -1px 0 #ffff,  
+                 1px -1px 0 #ffff,  
+                 -1px 1px 0 #ffff,  
+                 1px 1px 0 #ffff;
+}
+
+.text-stockbb {
+    text-shadow: -1px -1px 0 #5706fa,  
+                 1px -1px 0 #5706fa,  
+                 -1px 1px 0 #5706fa,  
+                 1px 1px 0 #5706fa;
+}
+
+
+
+.text-stockbk {
+    text-shadow: -1px -1px 0 #000,  
+                 1px -1px 0  #000,  
+                 -1px 1px 0  #000,  
+                 1px 1px 0  #000;
+}

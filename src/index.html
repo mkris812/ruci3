@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RUCI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/aos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+
+
+    <header id="header"  class="fixed bg-transparent top-0 left-0  w-full  z-10 shadow-2xl  ">
+
+        
+        
+        <nav class=" px-10   py-4 flex">
+            <div>
+                <a href="#"><img class="w-16" src="../img/ruci-logo.png" alt="RUCI"></a>
+            </div>
+            <div class="ml-auto pt-3 flex gap-10">
+                <div class="hidden  lg:block">
+                    <ul   class="flex gap-5">
+
+                        <li 
+                            class="hover:text-secondaryc hover:border-b-2 pb-2 hover:transition-transform hover:easy-in-out hover:border-secondaryc ">
+                            <a href="#">Home</a>
+                        </li>
+                        <li
+                            class="hover:text-secondaryc hover:border-b-2 pb-2 hover:transition-transform hover:easy-in-out hover:border-secondaryc ">
+                            <a href="#">Products</a>
+                        </li>
+                        <li
+                            class="hover:text-secondaryc hover:border-b-2 pb-2 hover:transition-transform hover:easy-in-out hover:border-secondaryc ">
+                            <a href="#">About us</a>
+                        </li>
+                        <li
+                            class="hover:text-secondaryc hover:border-b-2 pb-2 hover:transition-transform hover:easy-in-out hover:border-secondaryc ">
+                            <a href="#">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="hidden  lg:block">
+                    <a class="px-3 py-2 bg-secondaryc rounded-3xl shadow-lg text-white " href="#">Download</a>
+                </div>
+
+                <div id="menu-bar" class="text-black ml-auto pt-4 pr-1 font-bold  hover:text-red-800 lg:hidden"> 
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-9 h-9">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+<nav class="" >       
+
+<div id="mobil-menu"  class=" bg-white border-secondaryc  border-l-2   transform translate-x-full opacity-0 transition ease-out duration-500 z-50 
+shadow-lg rounded-tl-3xl shadow-black bottom-0 w-2/3 hidden h-full fixed text-4xl text-black top-0 right-0">
+
+
+<div class="bg-secondaryc absolute top-0  w-full h-20 border-t-4 border-secondaryc rounded-tl-3xl "></div>
+
+
+    <div class="flex">
+        <ul class="gap-7 flex px-10 py-10 mt-12 text-lg flex-col">
+          
+            <li><a href="#home" class="hover:text-secondaryc flex  hover:border-b-2 border-secondaryc "> 
+               <span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-5 mr-1 mt-1">
+  <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+</svg>
+ </span> Home</a></li>
+            <li><a href="#home" class="hover:text-secondaryc flex  hover:border-b-2 border-secondaryc "> 
+               <span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-5 mr-1 mt-1">
+  <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+</svg>
+ </span> Products</a></li>
+            <li><a href="#home" class="hover:text-secondaryc flex  hover:border-b-2 border-secondaryc "> 
+               <span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-5 mr-1 mt-1">
+  <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+</svg>
+ </span> About</a></li>
+            <li><a href="#home" class="hover:text-secondaryc flex  hover:border-b-2 border-secondaryc "> 
+               <span> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-5 mr-1 mt-1">
+  <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+</svg>
+ </span> Contact us</a></li>
+        </ul>
+
+    </div>
+    <div id="no-menu" class="absolute top-7 hover:text-black text-white  right-10">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+          </svg>
+          
+    </div>
+</div>
+</nav>
+
+       
+
+        
+
+      
+
+        <section id="home">
+
+
+            <div class="swiper mySwiper shadow-2xl shadow-black rounded-b-3xl  ">
+                <div class="swiper-wrapper">
+
+                    <!-- --------------------------------------slide1---------------- -->
+
+                    <div   class="swiper-slide ">
+
+                        <div id="home" class="
+                                                md:bg-cover md:bg-center md:h-screen
+                                                bg-cover bg-center
+                                                flex  rounded-b-3xl "
+                            style="background-image: url('../img/blue.jpg');">
+                          
+                            <div>
+                                <div       class="font-bold
+                                            lg:pt-64  lg:absolute lg:right-0 mt-20
+                                            md:pl-60 md:pt-72  md:text-7xl
+                                            pl-16 pt-52 pb-10  text-4xl  text-primaryc  ">
+                                            Organic sancks <br> <span class="text-blue-800 ">Is Good</span> For Health
+                                    <div class="text-sm  lg:text-lg">
+                                        <br>
+                                        <button
+                                            class="bg-blue-800  text-white shadow-sm p-2 px-2 lg:p-3 rounded-3xl    hover:bg-secondaryc hover:shadow-2xl hover:shadow-black  
+                                                                transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-100 duration-300">
+                                            View products
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- --------------------------------------slide1------------------>
+
+                    <!-- --------------------------------------slide1---------------- -->
+
+                    <div   class="swiper-slide ">
+
+                        <div id="home" class=" 
+                                        md:bg-cover md:bg-center md:h-screen
+                                        bg-cover bg-center
+                                        flex  rounded-b-3xl " style="background-image: url('../img/orgee.jpg');">
+
+                            <div>
+                                <div       class="font-bold
+                                    lg:pt-64   lg:absolute lg:right-0 mt-20
+                                    md:pl-60 md:pt-72  md:text-7xl
+                                    pl-16 pt-52 pb-10  text-4xl  text-stockbk text-primaryc">
+                                    Natural spices <br> <span class="text-orange-800">Is Always</span> Healthy
+                                    <div class="text-sm  lg:text-lg">
+                                        <br>
+                                        <button
+                                            class="bg-orange-800  text-white shadow-sm p-2 px-2 lg:p-3 rounded-3xl  hover:bg-secondaryc hover:shadow-2xl hover:shadow-black  
+                                                        transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-100 duration-300">
+                                            View products
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- --------------------------------------slide1------------------>
+
+                    <!-- --------------------------------------slide1---------------- -->
+
+                    <div   class="swiper-slide ">
+
+                        <div id="home" class="
+                                        md:bg-cover md:bg-center md:h-screen
+                                        bg-cover bg-center
+                                        flex  rounded-b-3xl " style="background-image: url('../img/whitee.jpg');">
+
+                            <div>
+                                <div       class="font-bold
+                                    lg:pt-64   lg:absolute lg:right-0 mt-20
+                                    md:pl-60 md:pt-72  md:text-7xl
+                                    pl-16 pt-52 pb-10  text-4xl 
+                                    text-black">
+                                    Healthy South <br> <span class="text-secondaryc  ">Indian</span> Products
+                                    <div class="text-sm  lg:text-lg">
+                                        <br>
+                                        <button
+                                            class="bg-secondaryc text-white shadow-sm p-2 px-2 lg:p-3 rounded-3xl  hover:bg-secondaryc hover:shadow-2xl hover:shadow-black  
+                                                        transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-100 duration-300">
+                                            View products
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- --------------------------------------slide1------------------>
+
+                </div>
+
+
+                <div class="swiper-pagination"></div>
+            </div>
+
+
+        </section>
+
+        <!-- ----------------------------------------------------------Our Features---------------------------------------------- -->
+        <section class="flex items-center flex-col lg:justify-center md:justify-center  mt-20 w-full bg-white">
+            <div class="flex flex-col items-center lg:px-32 md:px-32 px-10">
+                <div   class="h-0.5 w-20 bg-green-800 mb-2"></div>
+
+                <div   class="h-0.5 w-10 bg-secondaryc"></div>
+
+                <h1   class="lg:text-5xl md:text-2xl text-xl font-bold">Our Features</h1>
+                <p   class="lg:text-center lg:text-2xl md:text-xl text-xs text-justify mt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint tempora fuga
+                    id cupiditate, illo, praesentium ab voluptatum, laboriosam aspernatur consequatur possimus deserunt
+                    dicta in reiciendis similique itaque quia quam minima.</p>
+
+            </div>   
+            <div class="md:grid-cols-2 lg:grid-cols-3 lg:gap-10 md:gap-10 px-5 gap-x-5 grid-cols-2 gap-y-5 
+            pt-10 grid lg:grid  md:grid  ">
+               
+                <!-- ------------card--------- -->
+                <div   
+                    class="bg-white  shadow-md hover:shadow-2xl transition transform hover:translate-y-3 
+                    flex flex-col justify-center items-center 
+                    hover:rounded-2xl duration-300 delay-50 
+                    h-52 w-40
+                    px-1 py-2
+                    md:h-96 md:w-80 md:py-10 md:px-10
+                    lg:px-10 gap-5 lg:h-96 lg:w-80 lg:py-10
+                    ">
+                    <div >
+                        <img class="lg:w-auto lg:h-auto md:w-auto md:h-auto  h-10 w-10" src="../img/icon-2.png" alt="">
+                    </div>
+
+                    <h1 class="font-bold lg:text-2xl text-xs md:mt:3 mt-0.5 lg:mt-3">Natural Process</h1>
+
+                    <p class="text-center text-xs sm:text-base md:text-xs lg:text-lg">Lorem ipsum dolor. Non, Dolorum ex culpa</p>
+
+                    <button class="bg-secondaryc text-xs lg:text-lg md:text-lg text-white rounded-3xl px-1 py-1
+                    lg:px-3 lg:py-2 md:px-3 md:py-2 shadow-lg "> Read more</button>
+
+                </div>
+                <!-- ------------card--------- -->
+
+                <!-- ------------card--------- -->
+                <div  
+                class="bg-white  shadow-md hover:shadow-2xl transition transform hover:translate-y-3 
+                flex flex-col justify-center items-center 
+                hover:rounded-2xl duration-300 delay-50 
+                h-52 w-40
+                px-1 py-2
+                md:h-96 md:w-80 md:py-10 md:px-10
+                lg:px-10 gap-5 lg:h-96 lg:w-80 lg:py-10
+                ">
+                    <div class="">
+                        <img class="lg:w-auto lg:h-auto md:w-auto md:h-auto  h-10 w-10" src="../img/icon-3.png" alt="">
+                    </div>
+
+                    <h1 class="font-bold lg:text-2xl text-xs md:mt:3 mt-0.5 lg:mt-3">Natural Process</h1>
+
+                    <p class="text-center text-xs sm:text-base md:text-xs lg:text-lg"> Lorem ipsum dolor. Non, 
+                        provident dicta earum dignissimos.</p>
+                        <button class="bg-secondaryc text-xs lg:text-lg md:text-lg text-white rounded-3xl px-1 py-1
+                        lg:px-3 lg:py-2 md:px-3 md:py-2 shadow-lg "> Read more</button>
+                </div>
+                <!-- ------------card--------- -->
+
+                <!-- ------------card--------- -->
+                <div  
+                class="bg-white  shadow-md hover:shadow-2xl transition transform hover:translate-y-3 
+                flex flex-col justify-center items-center 
+                hover:rounded-2xl duration-300 delay-50 
+                h-52 w-40
+                px-1 py-2
+                md:h-96 md:w-80 md:py-10 md:px-10
+                lg:px-10 gap-5 lg:h-96 lg:w-80 lg:py-10
+                ">
+                    <div class="">
+                        <img class="lg:w-auto lg:h-auto md:w-auto md:h-auto  h-10 w-10" src="../img/icon-1.png" alt="">
+                    </div>
+
+                    <h1 class="font-bold lg:text-2xl text-xs md:mt:3 mt-0.5 lg:mt-3">Natural Process</h1>
+
+                    <p class="text-center text-xs sm:text-base md:text-xs lg:text-lg"> Lorem ipsum dolor. Non, 
+                        provident dicta earum dignissimos.</p>
+                        <button class="bg-secondaryc text-xs lg:text-lg md:text-lg text-white rounded-3xl px-1 py-1
+                        lg:px-3 lg:py-2 md:px-3 md:py-2 shadow-lg "> Read more</button>
+                </div>
+                <!-- ------------card--------- -->
+
+
+            </div>
+        </section>
+
+        <!-- ----------------------------------------------------------Our Features---------------------------------------------- -->
+
+
+
+        <!-- ----------------------------------------------------------Our Products---------------------------------------------- -->
+        <section class="flex flex-col pt-20">
+
+            <div class="flex flex-col px-5 md:32 lg:px-32">
+                <div   class="h-0.5 w-20 bg-green-800 mb-2"></div>
+
+                <div    class="h-0.5 w-10 bg-secondaryc"></div>
+
+                <h1   class="lg:text-5xl md:text-3xl text-xl mt-3 font-bold">Our Products</h1>
+                <div class="flex flex-col justify-between">
+                    <p d  class="text-justify text-xs sm:text-base md:text-xs lg:text-lg mt-3 ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint
+                        tempora fuga id cupiditate, illo, praesentium ab voluptatum, laboriosam aspernatur consequatur
+                        possimus deserunt dicta in reiciendis similique itaque quia quam minima.</p>
+                        <br>
+                        <br>
+                
+                        <div   class="text-xs lg:text-lg md:text-lg">
+                            <button
+                                class="bg-white text-secondaryc hover:text-black border-secondaryc border-2 active:bg-green-700  focus:bg-secondaryc focus:text-white px-3 py-2 shadow-lg ">
+                                Snacks</button>
+                            <button
+                                class="bg-white text-secondaryc hover:text-black border-secondaryc border-2 active:bg-green-700  focus:bg-secondaryc focus:text-white px-3 py-2 shadow-lg ">
+                                Oil</button>
+    
+                            <button
+                                class="bg-white text-secondaryc hover:text-black border-secondaryc border-2 active:bg-green-700  focus:bg-secondaryc focus:text-white px-3 py-2 shadow-lg ">
+                                Fresh</button>
+    
+                        </div>
+                </div>
+                
+
+
+                </div>
+
+                <div class=" lg:px-14 lg:gap-x-20 lg:grid-cols-4 lg:gap-y-10
+                md:px-14 md:gap-x-20 md:grid-cols-2 md:gap-y-10
+
+                px-5 gap-x-5 grid-cols-2 gap-y-20 
+                pt-10 grid lg:grid  md:grid  ">
+
+
+                    <!-- ------------card--------- -->
+                    <div 
+                        class="lg:h-80 lg:w-72 md:h-80 md:w-72 h-40 w-40 bg-transparent group  lg:rounded-3xl hover:shadow-2xl flex flex-col duration-300 delay-50">
+                        <div   class="lg:h-56 lg:w-full md:h-56 md:w-full w-full h-28">
+                            <a href="#">
+                                <img class="transition duration-500 ease-in-out lg:h-48 lg:w-full md:h-48 md:w-full h-24 w-full transform group-hover:animate-jumbo-slow z-20"
+                                    src="../img/b1.png" alt="">
+                            </a>
+                        </div>
+                        <div    class="bg-white h-full rounded-t-3xl lg:rounded-3xl group-hover:border-t-2 border-secondaryc border-t-2 group-hover:border-secondaryc shadow-xl mt-8 ">
+                            <div class="flex flex-col mt-3 w-full">
+                                <a class="lg:text-xl md:text-xl text-sm mx-auto   hover:text-secondaryc cursor-pointer ">Coconut Oil</a>
+                                <a
+                                    class="bg-white text-xs sm:text-base md:text-xs lg:text-lg text-secondaryc border-secondaryc border-2 cursor-pointer hover:shadow-2xl group-hover:bg-secondaryc group-hover:text-white text-center lg:mb-3 lg:mt-2 md:mb-3 md:mt-2 mb-1.5 mt-1 mx-auto flex lg:gap-2 md:gap-2 gap-1 rounded-3xl  lg:px-3 lg:py-2 md:px-3 md:py-2 px-1.5 py-1 shadow-lg ">
+                                    <span class=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                        </svg> </span> View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------card--------- -->
+
+
+                      <!-- ------------card--------- -->
+                      <div 
+                      class="lg:h-80 lg:w-72 md:h-80 md:w-72 h-40 w-40 bg-transparent group  lg:rounded-3xl hover:shadow-2xl flex flex-col duration-300 delay-50">
+                      <div   class="lg:h-56 lg:w-full md:h-56 md:w-full w-full h-28">
+                          <a href="#">
+                              <img class="transition duration-500 ease-in-out lg:h-48 lg:w-full md:h-48 md:w-full h-24 w-full transform group-hover:animate-jumbo-slow z-20"
+                                  src="../img/b2.png" alt="">
+                          </a>
+                      </div>
+                      <div    class="bg-white h-full rounded-t-3xl lg:rounded-3xl group-hover:border-t-2 border-secondaryc border-t-2 group-hover:border-secondaryc shadow-xl mt-8 ">
+                          <div class="flex flex-col mt-3 w-full">
+                              <a class="lg:text-xl md:text-xl text-sm mx-auto   hover:text-secondaryc cursor-pointer ">Coconut Oil</a>
+                              <a
+                                  class="bg-white text-xs sm:text-base md:text-xs lg:text-lg text-secondaryc border-secondaryc border-2 cursor-pointer hover:shadow-2xl group-hover:bg-secondaryc group-hover:text-white text-center lg:mb-3 lg:mt-2 md:mb-3 md:mt-2 mb-1.5 mt-1 mx-auto flex lg:gap-2 md:gap-2 gap-1 rounded-3xl  lg:px-3 lg:py-2 md:px-3 md:py-2 px-1.5 py-1 shadow-lg ">
+                                  <span class=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                          stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                          <path stroke-linecap="round" stroke-linejoin="round"
+                                              d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                          <path stroke-linecap="round" stroke-linejoin="round"
+                                              d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                      </svg> </span> View Details</a>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- ------------card--------- -->
+
+
+                     
+  <!-- ------------card--------- -->
+  <div 
+  class="lg:h-80 lg:w-72 md:h-80 md:w-72 h-40 w-40 bg-transparent group  lg:rounded-3xl hover:shadow-2xl flex flex-col duration-300 delay-50">
+  <div   class="lg:h-56 lg:w-full md:h-56 md:w-full w-full h-28">
+      <a href="#">
+          <img class="transition duration-500 ease-in-out lg:h-48 lg:w-full md:h-48 md:w-full h-24 w-full transform group-hover:animate-jumbo-slow z-20"
+              src="../img/b3.png" alt="">
+      </a>
+  </div>
+  <div    class="bg-white h-full rounded-t-3xl lg:rounded-3xl group-hover:border-t-2 border-secondaryc border-t-2 group-hover:border-secondaryc shadow-xl mt-8 ">
+      <div class="flex flex-col mt-3 w-full">
+          <a class="lg:text-xl md:text-xl text-sm mx-auto   hover:text-secondaryc cursor-pointer ">Coconut Oil</a>
+          <a
+              class="bg-white text-xs sm:text-base md:text-xs lg:text-lg text-secondaryc border-secondaryc border-2 cursor-pointer hover:shadow-2xl group-hover:bg-secondaryc group-hover:text-white text-center lg:mb-3 lg:mt-2 md:mb-3 md:mt-2 mb-1.5 mt-1 mx-auto flex lg:gap-2 md:gap-2 gap-1 rounded-3xl  lg:px-3 lg:py-2 md:px-3 md:py-2 px-1.5 py-1 shadow-lg ">
+              <span class=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                      stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                      <path stroke-linecap="round" stroke-linejoin="round"
+                          d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                      <path stroke-linecap="round" stroke-linejoin="round"
+                          d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                  </svg> </span> View Details</a>
+      </div>
+  </div>
+</div>
+<!-- ------------card--------- -->
+
+
+                 
+
+                    <!-- ------------card--------- -->
+                    <div 
+                        class="lg:h-80 lg:w-72 md:h-80 md:w-72 h-40 w-40 bg-transparent group  lg:rounded-3xl hover:shadow-2xl flex flex-col duration-300 delay-50">
+                        <div   class="lg:h-56 lg:w-full md:h-56 md:w-full w-full h-28">
+                            <a href="#">
+                                <img class="transition duration-500 ease-in-out lg:h-48 lg:w-full md:h-48 md:w-full h-24 w-full transform group-hover:animate-jumbo-slow z-20"
+                                    src="../img/b1.png" alt="">
+                            </a>
+                        </div>
+                        <div    class="bg-white h-full rounded-t-3xl lg:rounded-3xl group-hover:border-t-2 border-secondaryc border-t-2 group-hover:border-secondaryc shadow-xl mt-8 ">
+                            <div class="flex flex-col mt-3 w-full">
+                                <a class="lg:text-xl md:text-xl text-sm mx-auto   hover:text-secondaryc cursor-pointer ">Coconut Oil</a>
+                                <a
+                                    class="bg-white text-xs sm:text-base md:text-xs lg:text-lg text-secondaryc border-secondaryc border-2 cursor-pointer hover:shadow-2xl group-hover:bg-secondaryc group-hover:text-white text-center lg:mb-3 lg:mt-2 md:mb-3 md:mt-2 mb-1.5 mt-1 mx-auto flex lg:gap-2 md:gap-2 gap-1 rounded-3xl  lg:px-3 lg:py-2 md:px-3 md:py-2 px-1.5 py-1 shadow-lg ">
+                                    <span class=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                        </svg> </span> View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------card--------- -->
+
+
+                      <!-- ------------card--------- -->
+                      <div 
+                      class="lg:h-80 lg:w-72 md:h-80 md:w-72 h-40 w-40 bg-transparent group  lg:rounded-3xl hover:shadow-2xl flex flex-col duration-300 delay-50">
+                      <div   class="lg:h-56 lg:w-full md:h-56 md:w-full w-full h-28">
+                          <a href="#">
+                              <img class="transition duration-500 ease-in-out lg:h-48 lg:w-full md:h-48 md:w-full h-24 w-full transform group-hover:animate-jumbo-slow z-20"
+                                  src="../img/b2.png" alt="">
+                          </a>
+                      </div>
+                      <div    class="bg-white h-full rounded-t-3xl lg:rounded-3xl group-hover:border-t-2 border-secondaryc border-t-2 group-hover:border-secondaryc shadow-xl mt-8 ">
+                          <div class="flex flex-col mt-3 w-full">
+                              <a class="lg:text-xl md:text-xl text-sm mx-auto   hover:text-secondaryc cursor-pointer ">Coconut Oil</a>
+                              <a
+                                  class="bg-white text-xs sm:text-base md:text-xs lg:text-lg text-secondaryc border-secondaryc border-2 cursor-pointer hover:shadow-2xl group-hover:bg-secondaryc group-hover:text-white text-center lg:mb-3 lg:mt-2 md:mb-3 md:mt-2 mb-1.5 mt-1 mx-auto flex lg:gap-2 md:gap-2 gap-1 rounded-3xl  lg:px-3 lg:py-2 md:px-3 md:py-2 px-1.5 py-1 shadow-lg ">
+                                  <span class=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                          stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                          <path stroke-linecap="round" stroke-linejoin="round"
+                                              d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                          <path stroke-linecap="round" stroke-linejoin="round"
+                                              d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                      </svg> </span> View Details</a>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- ------------card--------- -->
+
+
+                     
+  <!-- ------------card--------- -->
+  <div 
+  class="lg:h-80 lg:w-72 md:h-80 md:w-72 h-40 w-40 bg-transparent group  lg:rounded-3xl hover:shadow-2xl flex flex-col duration-300 delay-50">
+  <div   class="lg:h-56 lg:w-full md:h-56 md:w-full w-full h-28">
+      <a href="#">
+          <img class="transition duration-500 ease-in-out lg:h-48 lg:w-full md:h-48 md:w-full h-24 w-full transform group-hover:animate-jumbo-slow z-20"
+              src="../img/b3.png" alt="">
+      </a>
+  </div>
+  <div    class="bg-white h-full rounded-t-3xl lg:rounded-3xl group-hover:border-t-2 border-secondaryc border-t-2 group-hover:border-secondaryc shadow-xl mt-8 ">
+      <div class="flex flex-col mt-3 w-full">
+          <a class="lg:text-xl md:text-xl text-sm mx-auto   hover:text-secondaryc cursor-pointer ">Coconut Oil</a>
+          <a
+              class="bg-white text-xs sm:text-base md:text-xs lg:text-lg text-secondaryc border-secondaryc border-2 cursor-pointer hover:shadow-2xl group-hover:bg-secondaryc group-hover:text-white text-center lg:mb-3 lg:mt-2 md:mb-3 md:mt-2 mb-1.5 mt-1 mx-auto flex lg:gap-2 md:gap-2 gap-1 rounded-3xl  lg:px-3 lg:py-2 md:px-3 md:py-2 px-1.5 py-1 shadow-lg ">
+              <span class=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                      stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                      <path stroke-linecap="round" stroke-linejoin="round"
+                          d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                      <path stroke-linecap="round" stroke-linejoin="round"
+                          d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                  </svg> </span> View Details</a>
+      </div>
+  </div>
+</div>
+<!-- ------------card--------- -->
+
+
+                    <!-- ------------card--------- -->
+                    <div 
+                        class="lg:h-80 lg:w-72 md:h-80 md:w-72 h-40 w-40 bg-transparent group  lg:rounded-3xl hover:shadow-2xl flex flex-col duration-300 delay-50">
+                        <div   class="lg:h-56 lg:w-full md:h-56 md:w-full w-full h-28">
+                            <a href="#">
+                                <img class="transition duration-500 ease-in-out lg:h-48 lg:w-full md:h-48 md:w-full h-24 w-full transform group-hover:animate-jumbo-slow z-20"
+                                    src="../img/b1.png" alt="">
+                            </a>
+                        </div>
+                        <div    class="bg-white h-full rounded-t-3xl lg:rounded-3xl group-hover:border-t-2 border-secondaryc border-t-2 group-hover:border-secondaryc shadow-xl mt-8 ">
+                            <div class="flex flex-col mt-3 w-full">
+                                <a class="lg:text-xl md:text-xl text-sm mx-auto   hover:text-secondaryc cursor-pointer ">Coconut Oil</a>
+                                <a
+                                    class="bg-white text-xs sm:text-base md:text-xs lg:text-lg text-secondaryc border-secondaryc border-2 cursor-pointer hover:shadow-2xl group-hover:bg-secondaryc group-hover:text-white text-center lg:mb-3 lg:mt-2 md:mb-3 md:mt-2 mb-1.5 mt-1 mx-auto flex lg:gap-2 md:gap-2 gap-1 rounded-3xl  lg:px-3 lg:py-2 md:px-3 md:py-2 px-1.5 py-1 shadow-lg ">
+                                    <span class=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                        </svg> </span> View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------card--------- -->
+
+
+                      <!-- ------------card--------- -->
+                      <div 
+                      class="lg:h-80 lg:w-72 md:h-80 md:w-72 h-40 w-40 bg-transparent group  lg:rounded-3xl hover:shadow-2xl flex flex-col duration-300 delay-50">
+                      <div   class="lg:h-56 lg:w-full md:h-56 md:w-full w-full h-28">
+                          <a href="#">
+                              <img class="transition duration-500 ease-in-out lg:h-48 lg:w-full md:h-48 md:w-full h-24 w-full transform group-hover:animate-jumbo-slow z-20"
+                                  src="../img/b2.png" alt="">
+                          </a>
+                      </div>
+                      <div    class="bg-white h-full rounded-t-3xl lg:rounded-3xl group-hover:border-t-2 border-secondaryc border-t-2 group-hover:border-secondaryc shadow-xl mt-8 ">
+                          <div class="flex flex-col mt-3 w-full">
+                              <a class="lg:text-xl md:text-xl text-sm mx-auto   hover:text-secondaryc cursor-pointer ">Coconut Oil</a>
+                              <a
+                                  class="bg-white text-xs sm:text-base md:text-xs lg:text-lg text-secondaryc border-secondaryc border-2 cursor-pointer hover:shadow-2xl group-hover:bg-secondaryc group-hover:text-white text-center lg:mb-3 lg:mt-2 md:mb-3 md:mt-2 mb-1.5 mt-1 mx-auto flex lg:gap-2 md:gap-2 gap-1 rounded-3xl  lg:px-3 lg:py-2 md:px-3 md:py-2 px-1.5 py-1 shadow-lg ">
+                                  <span class=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                          stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                          <path stroke-linecap="round" stroke-linejoin="round"
+                                              d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                          <path stroke-linecap="round" stroke-linejoin="round"
+                                              d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                      </svg> </span> View Details</a>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- ------------card--------- -->
+
+
+                     
+  <!-- ------------card--------- -->
+  <div 
+  class="lg:h-80 lg:w-72 md:h-80 md:w-72 h-40 w-40 bg-transparent group  lg:rounded-3xl hover:shadow-2xl flex flex-col duration-300 delay-50">
+  <div   class="lg:h-56 lg:w-full md:h-56 md:w-full w-full h-28">
+      <a href="#">
+          <img class="transition duration-500 ease-in-out lg:h-48 lg:w-full md:h-48 md:w-full h-24 w-full transform group-hover:animate-jumbo-slow z-20"
+              src="../img/b3.png" alt="">
+      </a>
+  </div>
+  <div    class="bg-white h-full rounded-t-3xl lg:rounded-3xl group-hover:border-t-2 border-secondaryc border-t-2 group-hover:border-secondaryc shadow-xl mt-8 ">
+      <div class="flex flex-col mt-3 w-full">
+          <a class="lg:text-xl md:text-xl text-sm mx-auto   hover:text-secondaryc cursor-pointer ">Coconut Oil</a>
+          <a
+              class="bg-white text-xs sm:text-base md:text-xs lg:text-lg text-secondaryc border-secondaryc border-2 cursor-pointer hover:shadow-2xl group-hover:bg-secondaryc group-hover:text-white text-center lg:mb-3 lg:mt-2 md:mb-3 md:mt-2 mb-1.5 mt-1 mx-auto flex lg:gap-2 md:gap-2 gap-1 rounded-3xl  lg:px-3 lg:py-2 md:px-3 md:py-2 px-1.5 py-1 shadow-lg ">
+              <span class=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                      stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                      <path stroke-linecap="round" stroke-linejoin="round"
+                          d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                      <path stroke-linecap="round" stroke-linejoin="round"
+                          d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                  </svg> </span> View Details</a>
+      </div>
+  </div>
+</div>
+<!-- ------------card--------- -->
+
+
+                    <!-- ------------card--------- -->
+                    <div 
+                        class="lg:h-80 lg:w-72 md:h-80 md:w-72 h-40 w-40 bg-transparent group  lg:rounded-3xl hover:shadow-2xl flex flex-col duration-300 delay-50">
+                        <div   class="lg:h-56 lg:w-full md:h-56 md:w-full w-full h-28">
+                            <a href="#">
+                                <img class="transition duration-500 ease-in-out lg:h-48 lg:w-full md:h-48 md:w-full h-24 w-full transform group-hover:animate-jumbo-slow z-20"
+                                    src="../img/b1.png" alt="">
+                            </a>
+                        </div>
+                        <div    class="bg-white h-full rounded-t-3xl lg:rounded-3xl group-hover:border-t-2 border-secondaryc border-t-2 group-hover:border-secondaryc shadow-xl mt-8 ">
+                            <div class="flex flex-col mt-3 w-full">
+                                <a class="lg:text-xl md:text-xl text-sm mx-auto   hover:text-secondaryc cursor-pointer ">Coconut Oil</a>
+                                <a
+                                    class="bg-white text-xs sm:text-base md:text-xs lg:text-lg text-secondaryc border-secondaryc border-2 cursor-pointer hover:shadow-2xl group-hover:bg-secondaryc group-hover:text-white text-center lg:mb-3 lg:mt-2 md:mb-3 md:mt-2 mb-1.5 mt-1 mx-auto flex lg:gap-2 md:gap-2 gap-1 rounded-3xl  lg:px-3 lg:py-2 md:px-3 md:py-2 px-1.5 py-1 shadow-lg ">
+                                    <span class=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                        </svg> </span> View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------card--------- -->
+
+
+                      <!-- ------------card--------- -->
+                      <div 
+                      class="lg:h-80 lg:w-72 md:h-80 md:w-72 h-40 w-40 bg-transparent group  lg:rounded-3xl hover:shadow-2xl flex flex-col duration-300 delay-50">
+                      <div   class="lg:h-56 lg:w-full md:h-56 md:w-full w-full h-28">
+                          <a href="#">
+                              <img class="transition duration-500 ease-in-out lg:h-48 lg:w-full md:h-48 md:w-full h-24 w-full transform group-hover:animate-jumbo-slow z-20"
+                                  src="../img/b2.png" alt="">
+                          </a>
+                      </div>
+                      <div    class="bg-white h-full rounded-t-3xl lg:rounded-3xl group-hover:border-t-2 border-secondaryc border-t-2 group-hover:border-secondaryc shadow-xl mt-8 ">
+                          <div class="flex flex-col mt-3 w-full">
+                              <a class="lg:text-xl md:text-xl text-sm mx-auto   hover:text-secondaryc cursor-pointer ">Coconut Oil</a>
+                              <a
+                                  class="bg-white text-xs sm:text-base md:text-xs lg:text-lg text-secondaryc border-secondaryc border-2 cursor-pointer hover:shadow-2xl group-hover:bg-secondaryc group-hover:text-white text-center lg:mb-3 lg:mt-2 md:mb-3 md:mt-2 mb-1.5 mt-1 mx-auto flex lg:gap-2 md:gap-2 gap-1 rounded-3xl  lg:px-3 lg:py-2 md:px-3 md:py-2 px-1.5 py-1 shadow-lg ">
+                                  <span class=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                          stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                          <path stroke-linecap="round" stroke-linejoin="round"
+                                              d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                          <path stroke-linecap="round" stroke-linejoin="round"
+                                              d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                      </svg> </span> View Details</a>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- ------------card--------- -->
+
+
+                     
+  <!-- ------------card--------- -->
+  <div 
+  class="lg:h-80 lg:w-72 md:h-80 md:w-72 h-40 w-40 bg-transparent group  lg:rounded-3xl hover:shadow-2xl flex flex-col duration-300 delay-50">
+  <div   class="lg:h-56 lg:w-full md:h-56 md:w-full w-full h-28">
+      <a href="#">
+          <img class="transition duration-500 ease-in-out lg:h-48 lg:w-full md:h-48 md:w-full h-24 w-full transform group-hover:animate-jumbo-slow z-20"
+              src="../img/b3.png" alt="">
+      </a>
+  </div>
+  <div    class="bg-white h-full rounded-t-3xl lg:rounded-3xl group-hover:border-t-2 border-secondaryc border-t-2 group-hover:border-secondaryc shadow-xl mt-8 ">
+      <div class="flex flex-col mt-3 w-full">
+          <a class="lg:text-xl md:text-xl text-sm mx-auto   hover:text-secondaryc cursor-pointer ">Coconut Oil</a>
+          <a
+              class="bg-white text-xs sm:text-base md:text-xs lg:text-lg text-secondaryc border-secondaryc border-2 cursor-pointer hover:shadow-2xl group-hover:bg-secondaryc group-hover:text-white text-center lg:mb-3 lg:mt-2 md:mb-3 md:mt-2 mb-1.5 mt-1 mx-auto flex lg:gap-2 md:gap-2 gap-1 rounded-3xl  lg:px-3 lg:py-2 md:px-3 md:py-2 px-1.5 py-1 shadow-lg ">
+              <span class=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                      stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                      <path stroke-linecap="round" stroke-linejoin="round"
+                          d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                      <path stroke-linecap="round" stroke-linejoin="round"
+                          d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                  </svg> </span> View Details</a>
+      </div>
+  </div>
+</div>
+<!-- ------------card--------- -->
+
+
+                    <!-- ------------card--------- -->
+                    <div 
+                        class="lg:h-80 lg:w-72 md:h-80 md:w-72 h-40 w-40 bg-transparent group  lg:rounded-3xl hover:shadow-2xl flex flex-col duration-300 delay-50">
+                        <div   class="lg:h-56 lg:w-full md:h-56 md:w-full w-full h-28">
+                            <a href="#">
+                                <img class="transition duration-500 ease-in-out lg:h-48 lg:w-full md:h-48 md:w-full h-24 w-full transform group-hover:animate-jumbo-slow z-20"
+                                    src="../img/b1.png" alt="">
+                            </a>
+                        </div>
+                        <div    class="bg-white h-full rounded-t-3xl lg:rounded-3xl group-hover:border-t-2 border-secondaryc border-t-2 group-hover:border-secondaryc shadow-xl mt-8 ">
+                            <div class="flex flex-col mt-3 w-full">
+                                <a class="lg:text-xl md:text-xl text-sm mx-auto   hover:text-secondaryc cursor-pointer ">Coconut Oil</a>
+                                <a
+                                    class="bg-white text-xs sm:text-base md:text-xs lg:text-lg text-secondaryc border-secondaryc border-2 cursor-pointer hover:shadow-2xl group-hover:bg-secondaryc group-hover:text-white text-center lg:mb-3 lg:mt-2 md:mb-3 md:mt-2 mb-1.5 mt-1 mx-auto flex lg:gap-2 md:gap-2 gap-1 rounded-3xl  lg:px-3 lg:py-2 md:px-3 md:py-2 px-1.5 py-1 shadow-lg ">
+                                    <span class=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                        </svg> </span> View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------card--------- -->
+
+
+                      <!-- ------------card--------- -->
+                      <div 
+                      class="lg:h-80 lg:w-72 md:h-80 md:w-72 h-40 w-40 bg-transparent group  lg:rounded-3xl hover:shadow-2xl flex flex-col duration-300 delay-50">
+                      <div   class="lg:h-56 lg:w-full md:h-56 md:w-full w-full h-28">
+                          <a href="#">
+                              <img class="transition duration-500 ease-in-out lg:h-48 lg:w-full md:h-48 md:w-full h-24 w-full transform group-hover:animate-jumbo-slow z-20"
+                                  src="../img/b2.png" alt="">
+                          </a>
+                      </div>
+                      <div    class="bg-white h-full rounded-t-3xl lg:rounded-3xl group-hover:border-t-2 border-secondaryc border-t-2 group-hover:border-secondaryc shadow-xl mt-8 ">
+                          <div class="flex flex-col mt-3 w-full">
+                              <a class="lg:text-xl md:text-xl text-sm mx-auto   hover:text-secondaryc cursor-pointer ">Coconut Oil</a>
+                              <a
+                                  class="bg-white text-xs sm:text-base md:text-xs lg:text-lg text-secondaryc border-secondaryc border-2 cursor-pointer hover:shadow-2xl group-hover:bg-secondaryc group-hover:text-white text-center lg:mb-3 lg:mt-2 md:mb-3 md:mt-2 mb-1.5 mt-1 mx-auto flex lg:gap-2 md:gap-2 gap-1 rounded-3xl  lg:px-3 lg:py-2 md:px-3 md:py-2 px-1.5 py-1 shadow-lg ">
+                                  <span class=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                          stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                          <path stroke-linecap="round" stroke-linejoin="round"
+                                              d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                          <path stroke-linecap="round" stroke-linejoin="round"
+                                              d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                      </svg> </span> View Details</a>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- ------------card--------- -->
+
+
+                     
+  <!-- ------------card--------- -->
+  <div 
+  class="lg:h-80 lg:w-72 md:h-80 md:w-72 h-40 w-40 bg-transparent group  lg:rounded-3xl hover:shadow-2xl flex flex-col duration-300 delay-50">
+  <div   class="lg:h-56 lg:w-full md:h-56 md:w-full w-full h-28">
+      <a href="#">
+          <img class="transition duration-500 ease-in-out lg:h-48 lg:w-full md:h-48 md:w-full h-24 w-full transform group-hover:animate-jumbo-slow z-20"
+              src="../img/b3.png" alt="">
+      </a>
+  </div>
+  <div    class="bg-white h-full rounded-t-3xl lg:rounded-3xl group-hover:border-t-2 border-secondaryc border-t-2 group-hover:border-secondaryc shadow-xl mt-8 ">
+      <div class="flex flex-col mt-3 w-full">
+          <a class="lg:text-xl md:text-xl text-sm mx-auto   hover:text-secondaryc cursor-pointer ">Coconut Oil</a>
+          <a
+              class="bg-white text-xs sm:text-base md:text-xs lg:text-lg text-secondaryc border-secondaryc border-2 cursor-pointer hover:shadow-2xl group-hover:bg-secondaryc group-hover:text-white text-center lg:mb-3 lg:mt-2 md:mb-3 md:mt-2 mb-1.5 mt-1 mx-auto flex lg:gap-2 md:gap-2 gap-1 rounded-3xl  lg:px-3 lg:py-2 md:px-3 md:py-2 px-1.5 py-1 shadow-lg ">
+              <span class=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                      stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                      <path stroke-linecap="round" stroke-linejoin="round"
+                          d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                      <path stroke-linecap="round" stroke-linejoin="round"
+                          d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                  </svg> </span> View Details</a>
+      </div>
+  </div>
+</div>
+<!-- ------------card--------- -->
+
+
+                    <!-- ------------card--------- -->
+                    <div 
+                        class="lg:h-80 lg:w-72 md:h-80 md:w-72 h-40 w-40 bg-transparent group  lg:rounded-3xl hover:shadow-2xl flex flex-col duration-300 delay-50">
+                        <div   class="lg:h-56 lg:w-full md:h-56 md:w-full w-full h-28">
+                            <a href="#">
+                                <img class="transition duration-500 ease-in-out lg:h-48 lg:w-full md:h-48 md:w-full h-24 w-full transform group-hover:animate-jumbo-slow z-20"
+                                    src="../img/b1.png" alt="">
+                            </a>
+                        </div>
+                        <div    class="bg-white h-full rounded-t-3xl lg:rounded-3xl group-hover:border-t-2 border-secondaryc border-t-2 group-hover:border-secondaryc shadow-xl mt-8 ">
+                            <div class="flex flex-col mt-3 w-full">
+                                <a class="lg:text-xl md:text-xl text-sm mx-auto   hover:text-secondaryc cursor-pointer ">Coconut Oil</a>
+                                <a
+                                    class="bg-white text-xs sm:text-base md:text-xs lg:text-lg text-secondaryc border-secondaryc border-2 cursor-pointer hover:shadow-2xl group-hover:bg-secondaryc group-hover:text-white text-center lg:mb-3 lg:mt-2 md:mb-3 md:mt-2 mb-1.5 mt-1 mx-auto flex lg:gap-2 md:gap-2 gap-1 rounded-3xl  lg:px-3 lg:py-2 md:px-3 md:py-2 px-1.5 py-1 shadow-lg ">
+                                    <span class=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                        </svg> </span> View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------card--------- -->
+
+
+                      <!-- ------------card--------- -->
+                      <div 
+                      class="lg:h-80 lg:w-72 md:h-80 md:w-72 h-40 w-40 bg-transparent group  lg:rounded-3xl hover:shadow-2xl flex flex-col duration-300 delay-50">
+                      <div   class="lg:h-56 lg:w-full md:h-56 md:w-full w-full h-28">
+                          <a href="#">
+                              <img class="transition duration-500 ease-in-out lg:h-48 lg:w-full md:h-48 md:w-full h-24 w-full transform group-hover:animate-jumbo-slow z-20"
+                                  src="../img/b2.png" alt="">
+                          </a>
+                      </div>
+                      <div    class="bg-white h-full rounded-t-3xl lg:rounded-3xl group-hover:border-t-2 border-secondaryc border-t-2 group-hover:border-secondaryc shadow-xl mt-8 ">
+                          <div class="flex flex-col mt-3 w-full">
+                              <a class="lg:text-xl md:text-xl text-sm mx-auto   hover:text-secondaryc cursor-pointer ">Coconut Oil</a>
+                              <a
+                                  class="bg-white text-xs sm:text-base md:text-xs lg:text-lg text-secondaryc border-secondaryc border-2 cursor-pointer hover:shadow-2xl group-hover:bg-secondaryc group-hover:text-white text-center lg:mb-3 lg:mt-2 md:mb-3 md:mt-2 mb-1.5 mt-1 mx-auto flex lg:gap-2 md:gap-2 gap-1 rounded-3xl  lg:px-3 lg:py-2 md:px-3 md:py-2 px-1.5 py-1 shadow-lg ">
+                                  <span class=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                          stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                          <path stroke-linecap="round" stroke-linejoin="round"
+                                              d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                          <path stroke-linecap="round" stroke-linejoin="round"
+                                              d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                      </svg> </span> View Details</a>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- ------------card--------- -->
+
+
+                     
+  <!-- ------------card--------- -->
+  <div 
+  class="lg:h-80 lg:w-72 md:h-80 md:w-72 h-40 w-40 bg-transparent group  lg:rounded-3xl hover:shadow-2xl flex flex-col duration-300 delay-50">
+  <div   class="lg:h-56 lg:w-full md:h-56 md:w-full w-full h-28">
+      <a href="#">
+          <img class="transition duration-500 ease-in-out lg:h-48 lg:w-full md:h-48 md:w-full h-24 w-full transform group-hover:animate-jumbo-slow z-20"
+              src="../img/b3.png" alt="">
+      </a>
+  </div>
+  <div    class="bg-white h-full rounded-t-3xl lg:rounded-3xl group-hover:border-t-2 border-secondaryc border-t-2 group-hover:border-secondaryc shadow-xl mt-8 ">
+      <div class="flex flex-col mt-3 w-full">
+          <a class="lg:text-xl md:text-xl text-sm mx-auto   hover:text-secondaryc cursor-pointer ">Coconut Oil</a>
+          <a
+              class="bg-white text-xs sm:text-base md:text-xs lg:text-lg text-secondaryc border-secondaryc border-2 cursor-pointer hover:shadow-2xl group-hover:bg-secondaryc group-hover:text-white text-center lg:mb-3 lg:mt-2 md:mb-3 md:mt-2 mb-1.5 mt-1 mx-auto flex lg:gap-2 md:gap-2 gap-1 rounded-3xl  lg:px-3 lg:py-2 md:px-3 md:py-2 px-1.5 py-1 shadow-lg ">
+              <span class=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                      stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                      <path stroke-linecap="round" stroke-linejoin="round"
+                          d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                      <path stroke-linecap="round" stroke-linejoin="round"
+                          d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                  </svg> </span> View Details</a>
+      </div>
+  </div>
+</div>
+<!-- ------------card--------- -->
+
+
+
+
+
+                   
+                  
+
+                </div>
+
+
+            </div>
+
+        </section>
+        <!-- ----------------------------------------------------------Our Products---------------------------------------------- -->
+       
+
+
+<!-- ----------------------------------------------------------parlex---------------------------------------------- -->
+<!-- Add your custom CSS -->
+
+
+<section  class="mt-20 ">
+    <div class="h-96 bg-transparent shadow-inner rounded-3xl shadow-black flex  items-center bg-fixed bg-parallax">
+        <div class="bg-paralc lg:px-32 md:px-28 px-5 lg:ml-20 md:ml-16 ml rounded-3xl  shadow-black shadow-2xl text-white text-center py-24">
+            <h1 class="text-xs sm:text-base md:text-xs lg:text-lg"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam impedit eveniet maxime fuga aperiam 
+
+            </h1>
+            <div class="flex">
+                <a
+            class="  hover:text-secondaryc border-secondaryc border-2 cursor-pointer hover:shadow-2xl hover:bg-white bg-secondaryc text-white text-center mb-3 mt-2 mx-auto flex gap-2 rounded-3xl  px-3 py-2 shadow-lg ">
+            View Details</a>
+
+            </div>
+            
+            
+        </div>
+    </div>
+</section>
+
+<!-- ----------------------------------------------------------parlex---------------------------------------------- -->
+
+
+
+
+
+    </main>
+
+
+    <footer class="rounded-t-3xl mt-32 shadow-2xl shadow-secondaryc bg-cover bg-center" style="background-image: url('../img/bl.jpg');">
+        <section class=" rounded-t-3xl shadow-2xl pt-20 shadow-black border-2 border-x-secondaryc border-t-secondaryc  text-black">
+        <div class="flex flex-col sm:flex-row gap-5 w-full justify-between px-5 pb-14 lg:px-20 lg:pb-32">
+            <!-- First Column -->
+            <div   class="flex flex-col">
+               <a href="index.html#home"><img src="../img/ruci-logo.png" alt="" class="w-20 mx-auto"></a> 
+                <p>Natural food product</p>
+                <div class="d-flex pt-2">
+                    <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-square btn-outline-light rounded-circle me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+    
+            <!-- Second Column -->
+            <div   class="flex flex-col">
+                <p class=" font-bold text-lg" >Address 
+                    <div class="w-14 h-1 mb-2 bg-trdc"></div>
+                </p>
+                <div class="group mt-2">
+                    <a class="btn btn-link flex  group-hover:transition group-hover:translate-x-3 group-hover:text-trdc   " href="">  <span class=" group-hover:text-trdc  " ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 mt-1 h-4">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                    </svg> </span>India
+                    </a>
+                </div>
+                <div class="group mt-2">
+                    <a class="btn btn-link flex  group-hover:transition group-hover:translate-x-3 group-hover:text-trdc   " href="">  <span class=" group-hover:text-trdc  " ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 mt-1 h-4">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                    </svg> </span>ruci@gmail.com
+                    </a>
+                </div>
+
+            </div>
+    
+            <!-- Third Column -->
+            <div   class="flex flex-col ">
+                <p class=" font-bold text-lg " >Quick Links
+                    <div class="w-14 h-1 mb-2 bg-trdc "></div>
+                </p>
+
+                <div class="group mt-2">
+                    <a class="btn btn-link flex  group-hover:transition group-hover:translate-x-3 group-hover:text-trdc   " href="">  <span class=" group-hover:text-trdc  " ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 mt-1 h-4">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                    </svg> </span> Home
+                    </a>
+                </div>
+                <div class="group mt-2">
+                    <a class="btn btn-link flex  group-hover:transition group-hover:translate-x-3 group-hover:text-trdc   " href="">  <span class=" group-hover:text-trdc  " ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 mt-1 h-4">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                    </svg> </span> Products
+                    </a>
+                </div>
+                <div class="group mt-2">
+                    <a class="btn btn-link flex  group-hover:transition group-hover:translate-x-3 group-hover:text-trdc   " href="">  <span class=" group-hover:text-trdc  " ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 mt-1 h-4">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                    </svg> </span> About Us
+                    </a>
+                </div>
+                <div class="group mt-2">
+                    <a class="btn btn-link flex  group-hover:transition group-hover:translate-x-3 group-hover:text-trdc   " href="">  <span class=" group-hover:text-trdc  " ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 mt-1 h-4">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                    </svg> </span> Contact Us
+                    </a>
+                </div>
+                
+                
+
+            </div>
+    
+            <!-- Fourth Column -->
+            <div  class="flex flex-col">
+                <p class=" font-bold text-lg " >Subscribe
+                    <div class="w-14 h-1 mb-2 bg-trdc "></div>
+                </p>
+                <p class="  text-lg" > </p>
+                <div class="position-relative mx-auto" style="max-width: 400px;">
+                    <input class="form-control bg-transparent w-100 py-3 px-2 border-trdc border-2 focus-visible:border-trdc rounded-l-3xl" type="text" placeholder="Your email">
+                    <button type="button" class=" bg-trdc px-2 py-3 text-white position-absolute top-0 end-0 mt-2 me-2 rounded-r-3xl">Sign-Up</button>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright Section -->
+        <div  class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="#">Ruci</a>, All Right Reserved.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       </section>
+       
+    </footer>
+    
+
+
+    <script  src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script src="./js/main.js"></script>
+    <script src="./js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+</body>
+
+</html>
